@@ -19,7 +19,6 @@ echo "Unsetting subscription-manager release..."
 subscription-manager release --unset
 check_status "Release Unset"
 
-# Download file from Github
 
 # Install leapp upgrade and update system
 echo "Installing leapp-upgrade and updating the system..."

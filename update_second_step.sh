@@ -13,6 +13,9 @@ check_status() {
 echo "Showing current subscription-manager release..."
 subscription-manager release --show
 
+# Download file from Github 
+wget https://github.com/bakhtiyar-ismayil/rhel7to8/blob/main/leapp-data-22.tar.gz
+
 # Extract leapp data
 echo "Extracting leapp data from leapp-data-22.tar.gz..."
 tar -xzf leapp-data-22.tar.gz -C /etc/leapp/files
