@@ -74,3 +74,8 @@ This repository contains two bash scripts designed to facilitate the upgrade pro
 - Ensure you monitor the output of both scripts for any errors.
 - Review the Red Hat documentation on upgrading for additional information and considerations.
 
+## Updates Made
+
+- **Removed Old Kernels**: The first script now includes a command to remove old kernels using `yum remove --oldinstallonly`.
+- **Set Default GRUB Entry**: The second script sets the default GRUB entry to the new kernel using `grub2-set-default 1`.
+
