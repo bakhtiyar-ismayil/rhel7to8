@@ -1,5 +1,4 @@
 
-```markdown
 # RHEL 7 to 8 Upgrade Scripts
 
 This repository contains two bash scripts designed to facilitate the upgrade process from Red Hat Enterprise Linux (RHEL) 7 to RHEL 8. The upgrade process is divided into two stages: actions until the first reboot and actions after the reboot.
